@@ -1,0 +1,80 @@
+.mainmenu {
+  background-color: rgb(6, 6, 6);
+  position: fixed;
+  width: 50%;
+  border-radius: 40%;
+  border-color: rgb(181, 86, 3);
+  border-style: groove;
+  border-width: 5px;
+  height: 96%;
+  margin-left: 10%;
+  margin-top: 1%;
+}
+
+.menu {
+  background-color: rgb(219, 244, 221);
+  position: fixed;
+  border-radius: 40%;
+  height: 90%;
+  width: 50%;
+  margin-left: 30%;
+  margin-top: -35%;
+}
+
+.mainmenu h1 {
+  text-align: left;
+  margin-left: 16%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-size: 50px;
+}
+
+.menu h2 {
+  text-align: center;
+}
+
+.mainmenu ul {
+  text-align: left;
+  margin-left: 15%;
+  font-size: 40px;
+}
+
+.mainmenu a {
+  text-decoration: none;
+}
+
+.selected {
+  background-color: brown;
+}
+
+img.background {
+  min-height: 100%;
+  min-width: 640px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+.mainmenu ul:hover {
+  background-color: rgb(217, 7, 7);
+  transform: scale(1.2);
+  transition: transform 0.4s ease;
+}
+
+.food{
+    text-align: left;
+    margin-left: 10%;
+}
+
+
+.mainfood{
+    margin-top: 12%;
+    margin-left: 10%;
+}
+
+.food h6{
+    font-size: 30px;
+}

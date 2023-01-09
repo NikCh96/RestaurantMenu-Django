@@ -1,0 +1,19 @@
+{% load static %} {% load menu_tags %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="stylesheet" href="{% static 'your_menu/css/menu.css' %}" />
+  </head>
+  <body>
+    <img src="{% static 'your_menu/img/page4.jpg' %}" class = "background" />
+    <div class="mainmenu">
+        {% show_menu cat_selected %}
+    <div class="menu">{% block content %} {% endblock %}</div>
+    </div>
+  </body>
+</html>

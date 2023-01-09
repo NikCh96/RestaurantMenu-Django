@@ -1,0 +1,8 @@
+{% extends 'menu.html' %} {% block content %}
+<div class="mainfood">
+  {% for i in post %} {% if post_id == i.cat_id %}
+  <div class="food">
+    <h6>{{ i.title }}, {{ i.content }}, {{ i.price }}</h6>
+  </div>
+  {% endif %} {% endfor %} {% endblock %}
+</div>

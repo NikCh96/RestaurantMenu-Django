@@ -1,0 +1,9 @@
+<h1 style="color:#ccc">Выберите категорию:</h1>
+{% for i in menu %}
+<ul>
+  <a href="{{ i.get_absolute_url }}"> <li style="color:#ccc">{{ i }}</li></a>
+</ul>
+{% endfor %}
+<ul>
+  <a href="{% url 'menu' %}"> <li style="color:#ccc">Вернуться в главное меню</li></a>
+</ul>
